@@ -20,6 +20,10 @@ Secure Shell (SSH) for remote communication with target nodes.
 # Linux/Unix Systems
 The target operating systems managed through Ansible.
  # PROJECT STRUCTURE 
+ <img width="460" alt="project structure ansible" src="https://github.com/user-attachments/assets/47c58c3d-8453-4fd5-a5db-de475c49b496" />
+
+ # Installation Steps
+ ## Step-1:  Define Inventory
  
 
 
