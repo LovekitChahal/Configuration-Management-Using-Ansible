@@ -30,8 +30,11 @@ Update the inventory file with the target nodes. Ensure that the IP addresses, S
 Adjust the playbooks in the /playbooks directory as per your environment's requirements. Variables can be modified in the /vars directory to customize settings such as package names, configuration files, and more.
 
 ## Step-3: Run Playbooks
-Execute the main playbook to deploy configurations across your environment:
+### Execute the main playbook to deploy configurations across your environment:
 
 ansible-playbook -i inventory/production playbooks/site.yml 
+
+### For staging environments:
+ansible-playbook -i inventory/staging playbooks/site.yml
 
 
