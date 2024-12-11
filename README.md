@@ -11,19 +11,27 @@ SCALABILITY: Easily manage and scale infrastructure, whether it involves a few s
 CONSISTENCY ACROSS ENVIRONMENTS: Ensure that all systems are configured uniformly, reducing the risk of discrepancies between environments.
 
 # Tools and Technologies
-# Ansible
+## Ansible
 The core automation tool used for configuration management.
-# YAML
+## YAML
  The language used for writing Ansible playbooks and configuration files.
-# SSH
+## SSH
 Secure Shell (SSH) for remote communication with target nodes.
-# Linux/Unix Systems
+## Linux/Unix Systems
 The target operating systems managed through Ansible.
  # PROJECT STRUCTURE 
  <img width="460" alt="project structure ansible" src="https://github.com/user-attachments/assets/47c58c3d-8453-4fd5-a5db-de475c49b496" />
 
  # Installation Steps
  ## Step-1:  Define Inventory
- 
+Update the inventory file with the target nodes. Ensure that the IP addresses, SSH keys, and other connection details are correctly specified.
+
+## Step-2: Customize Playbooks
+Adjust the playbooks in the /playbooks directory as per your environment's requirements. Variables can be modified in the /vars directory to customize settings such as package names, configuration files, and more.
+
+## Step-3: Run Playbooks
+Execute the main playbook to deploy configurations across your environment:
+
+ansible-playbook -i inventory/production playbooks/site.yml
 
 
