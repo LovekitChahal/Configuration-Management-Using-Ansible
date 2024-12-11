@@ -22,7 +22,15 @@ The target operating systems managed through Ansible.
  # PROJECT STRUCTURE 
  <img width="460" alt="project structure ansible" src="https://github.com/user-attachments/assets/47c58c3d-8453-4fd5-a5db-de475c49b496" />
 
- # Installation Steps
+ # Installation Steps 
+ ### 1-Clone the repository
+ 
+### 2-Navigate to the project directory:
+cd Configuration Management using Ansible
+
+### 3-Install necessary Ansible roles and dependencies:
+ansible-galaxy install -r requirements.yml
+ # Usage Guide
  ## Step-1:  Define Inventory
 Update the inventory file with the target nodes. Ensure that the IP addresses, SSH keys, and other connection details are correctly specified.
 
