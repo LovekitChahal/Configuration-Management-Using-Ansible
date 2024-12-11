@@ -32,6 +32,6 @@ Adjust the playbooks in the /playbooks directory as per your environment's requi
 ## Step-3: Run Playbooks
 Execute the main playbook to deploy configurations across your environment:
 
-ansible-playbook -i inventory/production playbooks/site.yml
+ansible-playbook -i inventory/production playbooks/site.yml 
 
 
