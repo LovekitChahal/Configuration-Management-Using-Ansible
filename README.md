@@ -20,6 +20,6 @@ Secure Shell (SSH) for remote communication with target nodes.
 # Linux/Unix Systems
 The target operating systems managed through Ansible.
  # PROJECT STRUCTURE 
- Configuration-Management-Automation-with-Ansible/
+ 
 
 
