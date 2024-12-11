@@ -21,20 +21,5 @@ Secure Shell (SSH) for remote communication with target nodes.
 The target operating systems managed through Ansible.
  # PROJECT STRUCTURE 
  Configuration-Management-Automation-with-Ansible/
-│
-├── playbooks/            # Contains all Ansible playbooks
-│   ├── site.yml          # Main playbook orchestrating all tasks
-│   ├── webserver.yml     # Playbook for setting up a web server
-│   ├── dbserver.yml      # Playbook for setting up a database server
-│   └── roles/            # Reusable roles for specific tasks
-│
-├── inventory/            # Inventory file for defining target nodes
-│   ├── production        # Production environment inventory
-│   └── staging           # Staging environment inventory
-│
-├── vars/                 # Variable files for playbook customization
-│   ├── webserver_vars.yml
-│   └── dbserver_vars.yml
-│
-└── README.md             # Project documentation
+
 
